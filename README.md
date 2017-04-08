@@ -3,8 +3,8 @@
 API Document <br>
  After Run Project  http://localhost:8080/swagger-ui.html <br>
  - Create Task (Post)http://localhost:8080/api/task<br>
- - Update Task (Put)http://localhost:8080/api/task/{id}<br>
- - Delete Task (Delete)http://localhost:8080/api/task/{id}<br>
+ - Update Task (Put)http://localhost:8080/api/task/update/{id}<br>
+ - Delete Task (Delete)http://localhost:8080/api/task/delete/{id}<br>
  - GetList Task (Get)http://localhost:8080/api/tasks<br>
  - Get Task (Get)http://localhost:8080/api/task/{id}
  

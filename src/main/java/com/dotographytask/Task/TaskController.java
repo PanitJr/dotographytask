@@ -34,12 +34,12 @@ public class TaskController {
         return taskService.create(task);
     }
 
-    @PutMapping("/api/task/{id}")
+    @PutMapping("/api/task/update/{id}")
     public Task updateStatus(@Valid @RequestBody Task task){
         return taskService.update(task);
     }
 
-    @DeleteMapping("/api/task/{id}")
+    @DeleteMapping("/api/task/delete/{id}")
     public void delete(@PathVariable("id") String id){taskService.delete(id);}
 
 }
