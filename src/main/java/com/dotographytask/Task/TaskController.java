@@ -34,7 +34,7 @@ public class TaskController {
         return taskService.create(task);
     }
 
-    @PutMapping("/api/task/update/{id}")
+    @PutMapping("/api/task/{id}")
     public Task updateStatus(@Valid @RequestBody Task task){
         return taskService.update(task);
     }
